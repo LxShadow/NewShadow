@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   try {
     const pp = imagen4;
     // let vn = './media/menu.mp3'
-    const img = './Menu2.jpg';
+    const img = './LXSHADOW.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -19,60 +19,85 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+    const str = `
+    @LxShadow ~ Bot 🥀
 
-┏━━━━━━━━━━━━━━━━┓
-┃ *<𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣*- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
-┣ ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-┣ ඬ⃟🔊 _Te diagnostico con gay_
-┣ ඬ⃟🔊 _No digas eso papu_
-┣ ඬ⃟🔊 _A nadie le importa_
-┣ ඬ⃟🔊 _Fiesta del admin_
-┣ ඬ⃟🔊 _Fiesta del administrador_ 
-┣ ඬ⃟🔊 _Vivan los novios_
-┣ ඬ⃟🔊 _Feliz cumpleaños_
-┣ ඬ⃟🔊 _Noche de paz_
-┣ ඬ⃟🔊 _Buenos dias_
-┣ ඬ⃟🔊 _Buenos tardes_
-┣ ඬ⃟🔊 _Buenos noches_
-┣ ඬ⃟🔊 _Audio hentai_
-┣ ඬ⃟🔊 _Chica lgante_
-┣ ඬ⃟🔊 _Feliz navidad_
-┣ ඬ⃟🔊 _Vete a la vrg_
-┣ ඬ⃟🔊 _Pasa pack Bot_
-┣ ඬ⃟🔊 _Atencion grupo_
-┣ ඬ⃟🔊 _Marica quien_
-┣ ඬ⃟🔊 _Murio el grupo_
-┣ ඬ⃟🔊 _Oh me vengo_
-┣ ඬ⃟🔊 _tio que rico_
-┣ ඬ⃟🔊 _Viernes_
-┣ ඬ⃟🔊 _Baneado_
-┣ ඬ⃟🔊 _Sexo_
-┣ ඬ⃟🔊 _Hola_
-┣ ඬ⃟🔊 _Un pato_
-┣ ඬ⃟🔊 _Nyanpasu_
-┣ ඬ⃟🔊 _Te amo_
-┣ ඬ⃟🔊 _Yamete_
-┣ ඬ⃟🔊 _Bañate_
-┣ ඬ⃟🔊 _Es puto_
-┣ ඬ⃟🔊 _La biblia_
-┣ ඬ⃟🔊 _Onichan_
-┣ ඬ⃟🔊 _Mierda de Bot_
-┣ ඬ⃟🔊 _Siuuu_
-┣ ඬ⃟🔊 _Epico_
-┣ ඬ⃟🔊 _Shitpost_
-┣ ඬ⃟🔊 _Rawr_
-┣ ඬ⃟🔊 _UwU_
-┣ ඬ⃟🔊 _:c_
-┣ ඬ⃟🔊 _a_
-┗━━━━━━━━━━━━━━━━┛`.trim();
+        
+   Hola, ${taguser}
+
+
+𝐒𝐢 𝐃𝐞𝐬𝐞𝐚𝐬 𝐀𝐝𝐪𝐮𝐢𝐫𝐢𝐫 𝐄𝐥 𝐁𝐨𝐭, 𝐏𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬 𝐃𝐞 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠,
+𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞𝐬 𝐀 𝐁𝐚𝐣𝐨 𝐏𝐫𝐞𝐜𝐢𝐨 𝐔 𝐒𝐞𝐠𝐮𝐢𝐝𝐨𝐫𝐞𝐬.
+
+𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐚𝐫𝐦𝐞 𝐀𝐥 𝐒𝐢𝐠𝐮𝐢𝐞𝐧𝐭𝐞 𝐍𝐮𝐦𝐞𝐫𝐨:
+LxShadow: Wa.me/+5215541081250
+
+𝐌𝐞𝐭𝐨𝐝𝐨𝐬 𝐃𝐞 𝐏𝐚𝐠𝐨:
+
+Transferencia, Deposito Y PayPal.
+
+
+      *☁️   𝐌𝐞𝐧𝐮 𝐃𝐞 𝐏𝐫𝐞𝐜𝐢𝐨𝐬   ☁️*
+
+     
+        *☁️ 𝐏𝐫𝐞𝐜𝐢𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭 ☁️*
+        
+          30.00 Mx Por Grupo
+
+      *☁️ 𝐂𝐫𝐞𝐚𝐜𝐢𝐨𝐧 𝐃𝐞 𝐓𝐮 𝐏𝐫𝐨𝐩𝐢𝐨 𝐁𝐨𝐭 ☁️*
+
+               300.00 Mx
+
+       (Tiempo De Entrega De 12 a 24 hrs)
+
+___________________________________________
+
+       *☁️ 𝐏𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬 𝐃𝐞 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 ☁️*
+         
+         ( 𝐏𝐞𝐫𝐟𝐢𝐥𝐞𝐬 ~ 𝟏 𝐃𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 )
+
+💦- HBO Max 1 Mes 10.00 Mx
+
+💦- Claro video 1 Mes 15.00 Mx
+(Incluye Paramount,HBO Max,Foxsport)
+
+
+         *☁️ 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐚𝐬 ☁️*
+
+
+💦- HBO Max 1 Mes 20.00 Mx
+
+💦- Claro video 1 Mes 35.00 Mx
+(Incluye Paramount,HBO Max,Foxsport)
+
+_________________________________________
+        
+     *💎 𝐏𝐫𝐞𝐜𝐢𝐨 𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞𝐬 𝐘 𝐑𝐞𝐠𝐚𝐥𝐨𝐬. 💎*
+
+   💎520 x 65.00 Mx
+   💎1,040 x 130.00 Mx
+   💎1,560 x 190.00 Mx
+   💎2,080 x 240.00 Mx
+   💎2,600 x 300.00 Mx
+   💎3,120 x 360.00 Mx
+   💎3,640 x 420.00 Mx
+   💎4,120 x 480.00 Mx
+   💎4,680 x 540.00 Mx
+   💎5,200 x 600.00 Mx
+
+      *🎀  Regalos  🎀*
+
+          Pase Booyah
+
+  1 x 40.00 Mx   2 x 70.00 Mx
+
+
+        *🎀  Salas  🎀*
+
+   5 x 70.00 Mx  10 x 120.00 Mx
+
+
+@LxShadow ~ Bot 🥀`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
