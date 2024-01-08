@@ -25,29 +25,29 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Bruno Sobrino
- ▢ *WA:* +5219992095479
- ▢ *PayPal:* paypal.me/TheShadowBrokers133
+  *Prop.:* LxShadow
+  *WA:* +5215541081250
+  *PayPal:* https://www.paypal.me/ShadowDark46
 
- ▢ *Ping:* ${rtime}
- ▢ *Uptime:* ${uptime}
- ▢ *Prefijo:* ${usedPrefix}
- ▢ *Modo:* ${self ? "privado" : "público"}
- ▢ *Usuarios regs.:* ${totalusrReg}
- ▢ *Usuarios totales:* ${totalusr}
- ▢ *Tipo de bot:* ${(conn.user.jid == global.conn.user.jid ? '' : `Sub-bot de:\n ▢ +${global.conn.user.jid.split`@`[0]}`) || 'No es sub-bot'}
+  *Ping:* ${rtime}
+  *Uptime:* ${uptime}
+  *Prefijo:* ${usedPrefix}
+  *Modo:* ${self ? "privado" : "público"}
+  *Usuarios regs.:* ${totalusrReg}
+  *Usuarios totales:* ${totalusr}
+  *Tipo de bot:* ${(conn.user.jid == global.conn.user.jid ? '' : `Sub-bot de:\n ▢ +${global.conn.user.jid.split`@`[0]}`) || 'No es sub-bot'}
  
- ▢ *Chats privados:* ${chats.length - groups.length}
- ▢ *Grupos:* ${groups.length}
- ▢ *Chats totales:* ${chats.length}
+  *Chats privados:* ${chats.length - groups.length}
+  *Grupos:* ${groups.length}
+  *Chats totales:* ${chats.length}
  
- ▢ *Autoread:* ${autoread ? "activo" : "desactivado"}
- ▢ *Restrict:* ${restrict ? "activo" : "desactivado"}
- ▢ *PCOnly:* ${pconly ? "activado" : "desactivado"}
- ▢ *GPOnly:* ${gconly ? "activado" : "desactivado"}
- ▢ *AntiPrivado:* ${antiprivado ? "activado" : "desactivado"}
- ▢ *AntiLlamada:* ${antiCall ? "activado" : "desactivado"}
- ▢ *ModeJadiBot:* ${modejadibot ? "activado" : "desactivado"}`.trim();
+  *Autoread:* ${autoread ? "activo" : "desactivado"}
+  *Restrict:* ${restrict ? "activo" : "desactivado"}
+  *PCOnly:* ${pconly ? "activado" : "desactivado"}
+  *GPOnly:* ${gconly ? "activado" : "desactivado"}
+  *AntiPrivado:* ${antiprivado ? "activado" : "desactivado"}
+  *AntiLlamada:* ${antiCall ? "activado" : "desactivado"}
+  *ModeJadiBot:* ${modejadibot ? "activado" : "desactivado"}`.trim();
   const doc = [
     "pdf",
     "zip",
@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+    document: { url: `https://github.com/LxShadow/LxShadow` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -66,13 +66,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        mediaUrl: "https://github.com/LxShadow/LxShadow",
         mediaType: 2,
         previewType: "pdf",
-        title: "The Mystic - Bot",
+        title: "LxShadow 🥀",
         body: "Repositorio - GitHub",
         thumbnail: imagen1,
-        sourceUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        sourceUrl: "https://github.com/LxShadow/LxShadow",
       },
     },
     caption: info,
