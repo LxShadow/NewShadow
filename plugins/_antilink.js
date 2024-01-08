@@ -13,13 +13,13 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const user = `@${m.sender.split`@`[0]}`;
   const isGroupLink = linkRegex.exec(m.text);
   const grupo = `https://chat.whatsapp.com`;
-  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('_*< ANTI-LINK />*_\n\n*[ ℹ️ ] El antilink está habilitado, pero el participante que envió el enlace es un administrador.*');
+  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('_*< ANTI-LINK />*_\n\n*[ ℹ️ ] El antilink está habilitado, pero eres admi. .*');
   if (chat.antiLink && isGroupLink && !isAdmin) {
     if (isBotAdmin) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
       if (m.text.includes(linkThisGroup)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `_*< ANTI-LINK />*_\n\n*[ ℹ️ ] El participante @user envió un enlace de un grupo de WhatsApp, por lo que será eliminado.*`, mentions: [m.sender]}, {quoted: m});
+    await this.sendMessage(m.chat, {text: `_*< ANTI-LINK />*_\n\n*[ ℹ️ ] El participante @user envió un enlace, por lo que será eliminado.*`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('_*< ANTI-LINK />*_\n\n*[ ℹ️ ] Para que el anti-link funcione correctamente es necesario que el bot sea administrador del grupo.*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
