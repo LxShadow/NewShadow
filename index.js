@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('LxShadow - NewBot\nWhatsApp Bot', {
+say('The Mystic\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por LxShadow`, {
+say(`Bot creado por Bruno Sobrino`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -42,7 +42,7 @@ function start(file) {
     args: args.slice(1)});
   const p = fork();
   p.on('message', (data) => {
-    console.log('[RECEIVED]', data);
+    console.log('[RECIBIDO]', data);
     switch (data) {
       case 'reset':
         p.process.kill();
