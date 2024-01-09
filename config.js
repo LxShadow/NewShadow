@@ -10,33 +10,33 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250', 'LxShadow 🥀', false],
-  ['525541081250', 'LxShadow 🥀', true],
-  ['525541081250','LxShadow 🥀', true],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'], 
-  ['525541081250'],  
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250'],
-  ['525541081250']
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250', 'LxShadow 🥀', false],
+  ['5255141081250', 'LxShadow 🥀', true],
+  ['5255141081250','LxShadow 🥀', true],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'], 
+  ['5255141081250'],  
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250'],
+  ['5255141081250']
 ];
 
-global.suittag = ['525541081250'];
-global.prems = ['525541081250'];
+global.suittag = ['5255141081250'];
+global.prems = ['5255141081250'];
 
 global.packname = 'LxShadow ~ Bot 🥀';
 global.author = 'LxShadow ~ Bot 🥀';
@@ -72,7 +72,7 @@ global.mysticbot = 'https://github.com/LxShadow/NewShadow';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '525541081250';
+global.nomorown = '5255141081250';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
